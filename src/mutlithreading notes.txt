@@ -1,0 +1,29 @@
+mutlithreading notes
+
+//by default all prorams that u create are going to run on one thread this means no multiprocessing
+//you have to create a program that runs and should not block he ui
+//by default everytime u run a new program a thread is created and u can do all the threading things
+// you can make a thread sleep by  saying "Thread.sleep(put the time in ms)"put it in a try catch 
+//can be new,ready,terminated,waiting
+
+TWO WAYS OF CREATING A THREAD
+//implementing an interface called runnable
+//extending a class called thread
+in both u have to override a mehod called run
+
+true or false 
+1)whenever u implement an interface u have to overide all the methods in that interface..False(some methods can be static)
+-you have to overide all the abstract methods not just all the methods
+2)whenever you extend a class you have to overide all non static methods in that class
+false:::::only override the method whose behavior u want to change
+3) when class demo extends a thread class demo becomes a thread
+--true
+4) is it possible to force a thread to run at an exact particular time
+-no::: the operating system is the one that decides when a thread should run
+
+// when u implement a thread create a thread object and create 
+//create a runnable object, create a thread object using the thread class then start the run object
+
+NOTE:: A runnable obeject is NOT  a thread
+thread.join();
+join makes the current thread wait for the thread on which u have called the join()

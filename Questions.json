@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "question": "Who led the Israelites out of slavery in Egypt?",
+    "options": ["Abraham", "Moses", "David", "Joseph"],
+    "correct_answer": "Moses"
+  },
+  {
+    "id": 2,
+    "question": "What was the name of the garden where Adam and Eve lived?",
+    "options": ["Garden of Eden", "Garden of Gethsemane", "Garden of Delight", "Garden of Paradise"],
+    "correct_answer": "Garden of Eden"
+  },
+  {
+    "id": 3,
+    "question": "Who built the ark before the great flood?",
+    "options": [
+      "Noah",
+      "Abraham",
+      "Moses",
+      "Enoch"
+    ],
+    "correct_answer": "Noah"
+  },
+  {
+    "id": 4,
+    "question": "Who built the ark before the great flood?",
+    "options": [
+      "Noah",
+      "Abraham",
+      "Moses",
+      "Enoch"
+    ],
+    "correct_answer": "Noah"
+  }
+]
